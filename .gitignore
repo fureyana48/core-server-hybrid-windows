@@ -1,0 +1,24 @@
+# Private machine data
+*.log
+*.bak
+*.tmp
+
+# Raw Windows captures may contain identifiers, addresses, or other private data.
+raw-captures/
+captures/
+private/
+secrets/
+
+# Imaging artifacts
+*.mrimg
+*.mrimgx
+*.vhd
+*.vhdx
+*.wim
+*.iso
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
